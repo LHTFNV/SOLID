@@ -21,7 +21,8 @@ choco install -y vscode
 choco install -y qbittorrent 
 choco install -y nextcloud-client
 choco install -y filezilla
-choco install powershell-preview
+choco install -y powershell-preview
+choco install -y fluent-terminal
 
 #--- Enable developer mode on the system ---
 Set-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion\AppModelUnlock -Name AllowDevelopmentWithoutDevLicense -Value 1
