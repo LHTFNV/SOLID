@@ -1,0 +1,28 @@
+choco install -y googlechrome
+choco install -y cascadiacode
+choco install -y curl
+choco install -y git 
+choco install -y mpv
+choco install -y chocolatey-core.extension
+choco install -y chocolateygui
+choco install -y wget 
+choco install -y opera
+choco install -y foobar2000
+choco install -y firefox
+choco install -y telegram
+choco install -y conemu
+choco install -y chocolatey-windowsupdate.extension
+choco install -y ChocoShortcuts
+choco install -y Chocolatey-AutoUpdater
+choco install -y ubuntu.font
+choco install -y font-nerd-DejaVuSansMono
+choco install -y hyper
+choco install -y vscode
+choco install -y qbittorrent 
+choco install -y nextcloud-client
+choco install -y filezilla
+choco install powershell-preview
+
+#chocolatey.org/docs/installation
+#Install with cmd.exe
+#@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command " [System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
